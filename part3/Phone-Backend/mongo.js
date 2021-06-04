@@ -10,7 +10,7 @@ const nameInput = process.argv[3]
 const numberInput = process.argv[4]
 
 
-const url = `mongodb+srv://fullstack:Pavan9949@cluster0.gwqkb.mongodb.net/test?retryWrites=true&w=majority`
+const url = `mongodb+srv://fullstack:<Password>@cluster0.gwqkb.mongodb.net/test?retryWrites=true&w=majority`
 
 mongoose.connect(url, {
     useNewUrlParser: true
